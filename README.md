@@ -1,4 +1,4 @@
-![logo](https://github.com/sensasi-delight/kamus-webdev-md/assets/19289785/04aee5b1-1e55-4342-8b90-ad1cf4aa6779)
+![logo](https://github.com/sensasi-delight/kamus-webdev/assets/19289785/f6a6ac03-89dc-40ce-b759-47210cba372d)
 
 # Kamus Webdev
 
