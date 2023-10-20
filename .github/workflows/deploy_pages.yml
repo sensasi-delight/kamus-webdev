@@ -41,6 +41,7 @@ jobs:
         run: |
           touch .env
           echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> .env
+          echo "NEXT_PUBLIC_BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> .env
       - name: Detect package manager
         id: detect-package-manager
         run: |
