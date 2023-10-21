@@ -2,7 +2,8 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)){ return; }
     js = d.createElement(s); js.id = id;
-    js.innerHTML = `<script type="module">
+    js.type = 'module';
+    js.innerHTML = `
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
@@ -24,7 +25,7 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-    </script>`;
+    `;
 
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+}(document.body, 'script'));
