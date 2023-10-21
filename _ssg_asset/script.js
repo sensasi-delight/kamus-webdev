@@ -1,7 +1,8 @@
 (function(d, s, id){
-    var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)){ return; }
-    js = d.createElement(s); js.id = id;
+    
+    const js = d.createElement(s);
+    js.id = id;
     js.type = 'module';
     js.innerHTML = `
         // Import the functions you need from the SDKs you need
@@ -27,5 +28,6 @@
         const analytics = getAnalytics(app);
     `;
 
+    const fjs = d.body.getElementsByTagName(s)[0];
     fjs.parentNode.insertBefore(js, fjs);
-}(document.body, 'script'));
+}(document, 'script', 'firebase-jssdk'));
