@@ -22,8 +22,8 @@ jobs:
       - name: Generate .env
         working-directory: ./_ssg
         run: |
+          rm -rf .env
           touch .env
-          echo "BASE_URL=https://kamus-webdev.web.app" >> .env
           echo "NEXT_PUBLIC_BASE_URL=https://kamus-webdev.web.app" >> .env
       - name: Replace script if any
         run: |
