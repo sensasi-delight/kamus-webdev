@@ -6,7 +6,7 @@ Terima kasih telah tertarik berkontribusi pada Kamus Webdev!
 
 Pada kamus ini terdapat dua cara untuk berkontribusi yaitu:
 
-- Melalui [_Google Form_](#google-form).
+- Melalui [Google Form](#google-form).
 - Melalui [GitHub](#github).
 
 Silahkan membaca tata cara kontribusi yang Anda suka!.
