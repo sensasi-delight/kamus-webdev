@@ -13,7 +13,7 @@ Silahkan membaca tata cara kontribusi yang Anda suka!.
 
 ## Google Form
 
-Silahkan mengisi formulir sederhana yang terdapat pada [_link_ ini](....) untuk mengajukan istilah baru atau saran perbaikan pada istilah yang sudah ada.
+Silahkan mengisi formulir sederhana yang terdapat pada [_link_ ini](https://forms.gle/D8GGK41NBVzHsoRF9) untuk mengajukan istilah baru atau saran perbaikan pada istilah yang sudah ada.
 
 ## GitHub
 
